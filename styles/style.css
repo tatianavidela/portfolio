@@ -1,0 +1,63 @@
+body {
+	background-image: url("/images/and-machines-vqTWfa4DjEk-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	min-height: 100vh;
+	background-color: #cbc4b4;
+	margin: 0px;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	position: relative;
+	font-family: kepler-std, serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+h1 {
+	text-align: center;
+	color: #f23030;
+	font-family: vortice-concept, sans-serif;
+	font-size: 10vw;
+	margin-top: 80px;
+	margin-bottom: 0;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0;
+	text-transform: capitalize;
+	font-family: kepler-std, serif;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 2px;
+	color: #2c2c2c;
+	font-size: 4vw;
+}
+h3 {
+	font-family: vortice-concept, sans-serif;
+	font-weight: 700;
+	color: #f23030;
+	font-size: 20px;
+}
+a {
+	font-style: italic;
+	text-decoration: none;
+	display: block;
+	color: #2c2c2c;
+}
+h4 {
+	color: #2c2c2c;
+	font-family: vortice-concept, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 12px;
+}
+.section-1,
+.section-2,
+.section-3 {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 40px;
+}

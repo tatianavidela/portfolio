@@ -10,71 +10,114 @@
         <title> Portfolio | Tatiana Videla </title> 
     </head>
 <body>
-    <header>
-       <h1>Portfolio</h1>
+    <header id="header">
+       <h1>Port<br>folio</h1>
        <h2>Tatiana Videla</h2>
+       <nav>
+           <ul>
+               <li> <a href="#section-1">Rainy Days</a></li>
+               <li> <a href="#section-2">Community Science Museum</a></li>
+               <li> <a href="#section-3">Suits You</a></li>
+           </ul>
+       </nav>
     </header>
     <main>
 
-        <section class="section-1">
+        <section id="section-1">
             <h3>Rainy Days</h3> 
-            <a href="#">Link to Github</a>
-            <a href="#">Link to deployed site</a>
+            <a href="https://github.com/tatianavidela/rainydays_repo">Link to Github</a>
+            <a href="https://rainydaysproject-tatiana.netlify.app/">Link to deployed site</a>
             <div>
                 <h4>What was changed?</h4>
-                <ul>
-                    <li></li>
-                </ul>
+                <ol>
+                    <li>Added a loading page to the API calls for the products</li>
+                    <li>Changed the 'About page' styling </li>
+                    <li>Working on adding propper shopping bag and style it</li>
+                </ol>
             </div>
             <div>
                 <h4>How I changed it</h4>   
-                <p></p>        
+                <ol>
+                    <li>Made a class to style a loader that i included in the javascript of the API call for the products page</li>
+                    <li>Rearanged the sections inside the flexbox and made it more responsiv by stiling the images with other heights and widths.</li>
+                    <li>Still working on making it work propperly with RESTapi call from Wordpress and woocommerce</li>
+                </ol>        
             </div>
             <div>
                 <h4>Why I did it that way</h4>
-                <p></p>
+                <ol>
+                    <li>Easy and appropriate to load over an API call that might take a while. </li>
+                    <li>It makes it look cleaner and it makes it responsive.</li>
+                    <li>Did not have enough time to find out how to make the new shopping cart work but i will till keep working on this</li>
+                </ol>  
             </div>
+            <a class="up-button" href="#header">up</a>
         </section>
 
-        <section class="section-2">
+        <section id="section-2">
             <h3>Community Science Museum</h3>
-            <a href="#">Link to Github</a>
-            <a href="#">Link to deployed site</a>
+            <a href="https://github.com/tatianavidela/community-science-museum">Link to Github</a>
+            <a href="https://community-science-museum-tatiana.netlify.app/">Link to deployed site</a>
             <div>
                 <h4>What was changed?</h4>
-                <ul>
-                    <li></li>
-                </ul>
+                <ol>
+                    <li>Some simple code cleanup. </li>
+                    <li>Fixed headings to make it hierarchical </li>
+                    <li>Changed the scroll when overflow in 'Exhibition spaces' page</li>
+                    <li>In the home page section 'Events and News'i made the entire image an anchor tag so it is all clickable</li>
+                </ol>
             </div>
             <div>
                 <h4>How I changed it</h4>   
-                <p></p>        
+                <ol>
+                    <li>Fixed some tags and file names that was uppercase and deleted the unecessary @font-face from the stylesheet. I did also place the stylesheet link in the correct order in each html document. Image files where edites to have the accurate formatting without spaces</li>
+                    <li>Changed headings in almost all pages</li>
+                    <li>To delete the scroll and overflow i had to change the layout of the entire page. There was some position issues that made some section overflow over others. The use of relative and absolute position for the section made it difficult to fix the page so i had to place the images over the text section without it being in position absolute </li>
+                    <li>By using flexbox on the section and each anchor tag. This made it also more responsives </li>
+                </ol>         
             </div>
             <div>
                 <h4>Why I did it that way</h4>
-                <p></p>
+                <ol>
+                    <li>Small code error can affect the entire page and create bugs. It can also make the code be bigger in size than necessary</li>
+                    <li>After understanding how the heading should work, i had to take time to change most of them from previous work. This hierarchy makes it more accessible when specially using assistive technology by making the page leveled or ranked by importance</li>
+                    <li>The overflow scroll made the page cluttered and messy. It wasnt very cleared that there was something more to read so changing it makes it more possible for the user to read all the paragraph</li>
+                    <li>Easier to access the link by making the entire image an anchor tag</li>
+                </ol>  
             </div>
+            <a  class="up-button" href="#header">up</a>
         </section>
 
 
-        <section class="section-3">
+        <section id="section-3">
             <h3>Suits You</h3> 
-            <a href="#">Link to Github</a>
-            <a href="#">Link to deployed site</a>
+            <a href="https://github.com/tatianavidela/suits-you">Link to Github</a>
+            <a href="https://suits-you-2.netlify.app/">Link to deployed site</a>
             <div>
                 <h4>What was changed?</h4>
-                <ul>
-                    <li></li>
-                </ul>
+                <ol>
+                    <li>Some margin for the slider indicator after some feedback of them beeing to close to the slider</li>
+                    <li>Added an underline to indicate where the mouse is hovering in the navigation</li>
+                    <li>Added a current page indicator to the navigation links </li>
+                </ol>
             </div>
             <div>
                 <h4>How I changed it</h4>   
-                <p></p>        
+                <ol>
+                    <li>I added some px to the margin</li>
+                    <li>It was simply by making the anchor tag react to the hovering of the mouse with and underline</li>
+                    <li>A class of current with a font-style of Italic, was added to each anchor tag for each of the specific pages</li>
+                </ol>          
             </div>
             <div>
                 <h4>Why I did it that way</h4>
-                <p></p>
-            </div> 
+                <ol>
+                    <li>Adding some pixels are the simplest way to separate the indicators from the slider itself</li>
+                    <li>It's alwasy good to help the user to see where the mouse is. This makes the navigation easier</li>
+                    <li>By adding a styling to the current indicator you can help the user to know where they are currently in the site</li>
+                </ol>  
+            </div>
+            <a class="up-button" href="#header">up</a>
         </section>      
 
 
